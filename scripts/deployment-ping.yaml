@@ -17,7 +17,7 @@ spec:
       - name: ocirsecret
       containers:
       - name: app
-        image: iad.ocir.io/idmaqhrbiuyo/django-ping-service:v0.1
+        image: iad.ocir.io/idmaqhrbiuyo/djangoprev:v0.1
         ports:
         - containerPort: 8000
         readinessProbe:
